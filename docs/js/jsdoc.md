@@ -17,7 +17,6 @@ const swapPolyglotWithReactIntl = require('$PACKAGE_NAME');
 webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
 ```
 
-Returns **any** edited webpackConfig
-const
+Returns **[object][1]** webpackConfig - The edited webpack config
 
 [1]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object

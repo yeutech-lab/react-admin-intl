@@ -1,4 +1,4 @@
-This will replace the internationalization of react-admin that use [polyglot](http://airbnb.io/polyglot.js/).
+This will replace the internationalization of react-admin (It use [polyglot](http://airbnb.io/polyglot.js/)).
 
 Instead, this will replace it with [react-intl](https://github.com/yahoo/react-intl)
 

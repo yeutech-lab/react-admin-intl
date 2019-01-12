@@ -10,8 +10,7 @@
  * // later in your application when you create your webpack configuration
  * webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
  *
- * @return edited webpackConfig
- * const
+ * @return {object} webpackConfig - The edited webpack config
  */
 export default function swapPolyglotWithReactIntl(webpackConfig) {
   if (!webpackConfig.resolve) {
