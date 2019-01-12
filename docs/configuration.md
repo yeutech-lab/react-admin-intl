@@ -22,7 +22,6 @@ Configuring alias at the module bundler level is often provided and is good if y
 Add to `resolve.alias` configuration the following entries:
 
 ```js static
-config.resolve.alias['ra-core/lib/CoreAdmin'] = join('react-admin-intl/ra-core/CoreAdmin');
 config.resolve.alias['./i18n/TranslationProvider'] = join('react-admin-intl/ra-core/i18n/TranslationProvider');
 config.resolve.alias['./TranslationContext']  = join('react-admin-intl/ra-core/i18n/TranslationContext');
 ```

@@ -197,7 +197,6 @@
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-array-includes": "^2.0.3",
     "babel-plugin-dynamic-import-node": "^2.2.0",
-    "babel-plugin-inline-react-svg": "^1.0.1",
     "babel-plugin-react-intl": "^3.0.1",
     "babel-plugin-react-transform": "^3.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.21",
@@ -210,24 +209,18 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.3",
     "exports-loader": "^0.7.0",
-    "history": "^4.7.2",
     "istanbul-api": "^2.0.6",
     "istanbul-reports": "^2.0.1",
     "jest-cli": "^23.6.0",
     "jest-sonar-reporter": "^2.0.0",
     "lint-staged": "^8.1.0",
-    "lodash": "^4.17.5",
-    "node-polyglot": "^2.2.2",
     "pre-commit": "^1.2.2",
-    "ra-core": "^2.6.1",
     "raf": "^3.4.1",
     "react": "^16.7.0",
     "react-redux": "^5.0.7",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "^5.0.0-alpha.9",
     "react-styleguidist": "^8.0.6",
     "react-test-renderer": "^16.7.0",
-    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
     "rollup": "^1.1.0",
     "rollup-plugin-babel": "^4.3.0",
     "rollup-plugin-cleanup": "^3.1.0",
@@ -246,19 +239,11 @@
     "webpack": "^4.28.3"
   },
   "dependencies": {
-    "@yeutech-lab/ra-language-intl": "^1.0.1",
-    "prop-types": "^15.6.2"
+    "react-intl": "^2.7.2"
   },
   "peerDependencies": {
     "react": "^16.7.0",
-    "react-redux": "^5.0.7",
-    "history": "^4.7.2",
-    "react-router-dom": "^4.2.2",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "recompose": "^0.26.0",
-    "ra-core": "^2.6.1",
-    "lodash": "^4.17.5",
-    "node-polyglot": "^2.2.2"
+    "react-redux": "^5.0.7"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -370,10 +355,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 0,
-        "branches": 0,
-        "functions": 0,
-        "lines": 0
+        "statements": 70,
+        "branches": 50,
+        "functions": 62,
+        "lines": 68
       }
     },
     "moduleDirectories": [
