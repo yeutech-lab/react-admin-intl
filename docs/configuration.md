@@ -19,11 +19,22 @@ Configuring alias at the module bundler level is often provided and is good if y
 
 ### Webpack
 
-Add to `resolve.alias` configuration the following entries:
+You must add to your `resolve.alias` two entries.
+
+This can be done when configuring webpack using one of our utility:
 
 ```js static
-config.resolve.alias['./i18n/TranslationProvider'] = join('react-admin-intl/ra-core/i18n/TranslationProvider');
-config.resolve.alias['./TranslationContext']  = join('react-admin-intl/ra-core/i18n/TranslationContext');
+const swapPolyglotWithReactIntl = require('$PACKAGE_NAME');
+// add aliases
+webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
+```
+
+If you prefer to do it manually, basically it will do this:
+
+
+```js static
+config.resolve.alias['./i18n/TranslationProvider'] = '$PACKAGE_NAME/lib/ra-core/i18n/TranslationProvider';
+config.resolve.alias['./TranslationContext']  = '$PACKAGE_NAME/lib/ra-core/i18n/TranslationContext';
 ```
 
 ## Transpiler configuration
