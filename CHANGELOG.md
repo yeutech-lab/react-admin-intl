@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.2...v1.0.3) (2019-01-12)
+
+
+### Bug Fixes
+
+* **webpack:** Added utility for webpack ([94fd9df](https://github.com/yeutech-lab/react-admin-intl/commit/94fd9df))
+
 ## [1.0.2](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.1...v1.0.2) (2019-01-12)
 
 
