@@ -370,24 +370,5 @@
     "setupTestFrameworkScriptFile": "<rootDir>/internals/testing/test-bundler.js"
   },
   "declinationId": "react",
-  "contributors": [],
-  "transitive": {
-    "name": "react-admin-intl",
-    "scope": "yeutech-lab",
-    "scopedName": "@yeutech-lab/react-admin-intl",
-    "jsnext:main": "dist/@yeutech-lab/react-admin-intl.esm.js",
-    "module": "dist/@yeutech-lab/react-admin-intl.esm.js",
-    "homepage": "https://yeutech-lab.github.io/react-admin-intl",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yeutech-lab/react-admin-intl.git"
-    },
-    "bugs": {
-      "url": "https://github.com/yeutech-lab/react-admin-intl/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
