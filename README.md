@@ -15,16 +15,59 @@ Quickly tweak react-admin and replace internationalization module polyglot with 
 
 ## Table of Contents
 
+  - [Installation](#installation)
+     - [Parameters](#parameters)
+     - [Examples](#examples)
   - [Documentation](#documentation)
   - [Contributing](#contributing)
   - [License MIT](#license-mit)
 
 ---
 
+## Installation
+
+```bash
+$ npm install @yeutech-lab/react-admin-intl --save-dev
+```
+
+Swap polyglot with our react-intl adapter.
+
+### Parameters
+
+-   `webpackConfig` **[object][1]** Your application webpack configuration
+
+### Examples
+
+```javascript
+const swapPolyglotWithReactIntl = require('@yeutech-lab/react-admin-intl');
+
+// later in your application when you create your webpack configuration
+webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
+```
+
+Returns **[object][1]** webpackConfig - The edited webpack config
+
+[1]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+This will replace the internationalization of react-admin (It use [polyglot](http://airbnb.io/polyglot.js/)).
+
+Instead, this will replace it with [react-intl](https://github.com/yahoo/react-intl)
+
+Because of that, default messages provided by **react-admin** won't be compatible anymore.
+
+This is why you must use this package to import the **react-intl** version of messages:
+
+
+```bash
+$ npm install @yeutech-lab/ra-language-intl --save
+```
+
+Visit [ra-language-intl](https://github.com/yeutech-lab/ra-language-intl) documentation to view available or add locale(s) translation(s).
+
+
 ## Documentation
 
 Read [react-admin-intl documentation](https://yeutech-lab.github.io/react-admin-intl).
-
 
 ## Contributing
 

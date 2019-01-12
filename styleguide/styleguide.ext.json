@@ -24,7 +24,14 @@
         },
         {
           "name": "Configuration",
-          "content": "docs/configuration.md"
+          "content": "docs/configuration.md",
+          "sections": [
+            {
+              "name": "Utilities",
+              "description": "This sections has been generated automatically based on source code annotation.",
+              "content": "docs/js/jsdoc.md"
+            }
+          ]
         },
         {
           "name": "Usage",
