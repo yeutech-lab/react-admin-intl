@@ -25,17 +25,12 @@
         {
           "name": "Configuration",
           "content": "docs/configuration.md"
+        },
+        {
+          "name": "Usage",
+          "content": "docs/usage.md"
         }
       ]
-    },
-    {
-      "name": "JSdoc",
-      "description": "This part is generated from the JSdoc annotations in the source code.",
-      "content": "docs/js/jsdoc.md"
-    },
-    {
-      "name": "FAQ",
-      "content": "docs/faq.md"
     },
     {
       "name": "Contribute",
