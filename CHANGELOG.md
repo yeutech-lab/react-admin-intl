@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.0...v1.0.1) (2019-01-12)
+
+
+### Bug Fixes
+
+* **release:** GitHub release https://github.com/yeutech-lab/react-admin-intl ([4407bd5](https://github.com/yeutech-lab/react-admin-intl/commit/4407bd5))
+
 # 1.0.0 (2019-01-12)
 
 
