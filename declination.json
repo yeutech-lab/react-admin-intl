@@ -1,8 +1,25 @@
 {
   "globals": {
-    "react": "React"
+    "react": "React",
+    "react-redux": "ReactRedux",
+    "history": "history",
+    "react-router-dom": "ReactRouterDom",
+    "react-router-redux": "ReactRouterRedux",
+    "recompose": "Recompose",
+    "ra-core": "RaCore",
+    "lodash": "_",
+    "node-polyglot": "polyglot"
+
   },
   "external": [
-    "react"
+    "react",
+    "react-redux",
+    "history",
+    "react-router-dom",
+    "react-router-redux",
+    "recompose",
+    "ra-core",
+    "lodash",
+    "node-polyglot"
   ]
 }
