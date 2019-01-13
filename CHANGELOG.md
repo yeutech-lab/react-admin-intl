@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.3...v1.0.4) (2019-01-13)
+
+
+### Bug Fixes
+
+* **doc:** fixed error in generated doc ([733a474](https://github.com/yeutech-lab/react-admin-intl/commit/733a474))
+
 ## [1.0.3](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.2...v1.0.3) (2019-01-12)
 
 
