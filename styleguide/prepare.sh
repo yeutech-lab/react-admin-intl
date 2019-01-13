@@ -13,8 +13,7 @@ npx @rollup-umd/documentation-cli variable \
   CI_PROJECT_URL="https://github.com/${TRAVIS_REPO_SLUG}" \
   CI_PROJECT_NAMESPACE=$(echo $TRAVIS_REPO_SLUG | awk -F / '{print $1}') \
   CI_PROJECT_NAME=$(echo $TRAVIS_REPO_SLUG | awk -F / '{print $2}') \
-  IMG_SHIELD_PUBLISHING=$(npx rollup-umd-scripts publish status --badge) \
-  PACKAGE_RA_CORE_VERSION=$(node -p "require('./package.json').devDependencies['ra-core'].replace(/(\^|\~)/,'');")
+  IMG_SHIELD_PUBLISHING=$(npx rollup-umd-scripts publish status --badge)
 
 if [[ "$DECLINATION_ID" = cli  ]]; then
   echo "[Documentation] generating CLI documentation"
