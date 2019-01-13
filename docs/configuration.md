@@ -1,8 +1,6 @@
-The tested and officially supported version of [ra-core](https://www.npmjs.com/package/ra-core) is `v$PACKAGE_RA_CORE_VERSION`.
+We tweaked two sources from [ra-core](https://github.com/marmelab/react-admin/tree/master/packages/ra-core/src).
 
-We tweaked a few sources from [ra-core](https://github.com/marmelab/react-admin/tree/v$PACKAGE_RA_CORE_VERSION/packages/ra-core/src).
-
-These source can be used instead of the original one to support internationalization with [react-intl](https://github.com/yahoo/react-intl/).
+These sources can be used instead of the original one to support internationalization with [react-intl](https://github.com/yahoo/react-intl/).
 
 There is two way to configure:
 
