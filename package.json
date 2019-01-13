@@ -188,7 +188,7 @@
     "@semantic-release/git": "^7.0.7",
     "@semantic-release/github": "^5.2.9",
     "@semantic-release/npm": "^5.1.3",
-    "@yeutech-lab/documentation": "^1.0.11",
+    "@yeutech-lab/documentation": "^1.0.12",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
