@@ -22,7 +22,7 @@ You must add to your `resolve.alias` two entries.
 This can be done when configuring webpack using one of our utility:
 
 ```js static
-const swapPolyglotWithReactIntl = require('$PACKAGE_NAME');
+const swapPolyglotWithReactIntl = require('$PACKAGE_NAME/lib/swapPolyglotWithReactIntl');
 // add aliases
 webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
 ```
