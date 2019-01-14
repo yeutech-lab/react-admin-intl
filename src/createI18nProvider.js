@@ -31,9 +31,9 @@ import { addLocaleData } from 'react-intl';
  * The `i18n/index.js` file export the default application locale and the list of applications locales
  *
  * @param {Object} options - createI18nProvider options
- * @param {string} [default="en"] options.locale - Default application locale ISO3166 alpha 2 (See: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
- * @param {string} [default=["en"]] options.locales - List of application locales available ISO3166
- * @param {function} [default=() => {}"] options.defaultMessages - A function that return messages from `require(locale)`
+ * @param {string} [default=en] options.locale - Default application locale ISO3166 alpha 2 (See: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+ * @param {string} [default=['en']] options.locales - List of application locales available ISO3166
+ * @param {function|object} [default={}] options.defaultMessages - A function or an object which return messages from `require(locale)`
  * @param {Promise[]} [default=[]] options.deferredMessagesList - A map from `locales`, return a function that return messages from `import(locale)`
  * @example
  * import createI18nProvider from '@yeutech-lab/react-admin-intl';
