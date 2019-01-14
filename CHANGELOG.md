@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.4...v1.1.0) (2019-01-14)
+
+
+### Features
+
+* **createI18nProvider:** added utility createI18nProvider ([98d0989](https://github.com/yeutech-lab/react-admin-intl/commit/98d0989))
+
 ## [1.0.4](https://github.com/yeutech-lab/react-admin-intl/compare/v1.0.3...v1.0.4) (2019-01-13)
 
 
