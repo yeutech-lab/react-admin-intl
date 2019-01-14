@@ -20,10 +20,10 @@ src/i18n
      ├── i18nProvider.js
      ├── index.js
      ├── translation
-     │   ├── de.json
-     │   ├── en.json
-     │   ├── fr.json
-     │   └── vi.json
+     │   ├── de.json
+     │   ├── en.json
+     │   ├── fr.json
+     │   └── vi.json
      └── vi.js
 ```
 
@@ -32,15 +32,15 @@ The `i18n/index.js` file export the default application locale and the list of a
 ### Parameters
 
 -   `options` **[Object][1]** createI18nProvider options
--   `default` **[string][2]** options.locale - Default application locale ISO3166 alpha 2 (See: [https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2][3]) (optional, default `"en"`)
--   `default` **[string][2]** options.locales - List of application locales available ISO3166 (optional, default `["en"]`)
--   `default` **[function][4]** options.defaultMessages - A function that return messages from `require(locale)` (optional, default `()=>{}"`)
+-   `default` **[string][2]** options.locale - Default application locale ISO3166 alpha 2 (See: [https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2][3]) (optional, default `en`)
+-   `default` **[string][2]** options.locales - List of application locales available ISO3166 (optional, default `['en']`)
+-   `default` **([function][4] \| [object][1])** options.defaultMessages - A function or an object which return messages from `require(locale)` (optional, default `{}`)
 -   `default` **[Array][5]&lt;[Promise][6]>** options.deferredMessagesList - A map from `locales`, return a function that return messages from `import(locale)` (optional, default `[]`)
 
 ### Examples
 
 ```javascript
-import createI18nProvider from '@yeutech-lab/react-admin-intl/lib/createI18nProvider'
+import createI18nProvider from '@yeutech-lab/react-admin-intl';
 import { appLocales as locales, DEFAULT_LOCALE as locale } from './index';
 
 // this will create the i18nProvider
@@ -54,25 +54,6 @@ const { i18nProvider, messages } = createI18nProvider({
 ```
 
 Returns **i18nProvider** 
-
-## swapPolyglotWithReactIntl
-
-Swap polyglot with our react-intl adapter
-
-### Parameters
-
--   `webpackConfig` **[object][1]** Your application webpack configuration
-
-### Examples
-
-```javascript
-const swapPolyglotWithReactIntl = require('@yeutech-lab/react-admin-intl/lib/swapPolyglotWithReactIntl');
-
-// later in your application when you create your webpack configuration
-webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
-```
-
-Returns **[object][1]** webpackConfig - The edited webpack config
 
 [1]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 

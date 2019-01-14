@@ -29,7 +29,16 @@
             {
               "name": "Utilities",
               "description": "This sections has been generated automatically based on source code annotation.",
-              "content": "docs/js/jsdoc.md"
+              "sections": [
+                {
+                  "name": "swapPolyglotWithReactIntl",
+                  "content": "docs/js/swapPolyglotWithReactIntl.md"
+                },
+                {
+                  "name": "createI18nProvider",
+                  "content": "docs/js/createI18nProvider.md"
+                }
+              ]
             }
           ]
         },
