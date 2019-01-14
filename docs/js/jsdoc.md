@@ -11,7 +11,7 @@ Swap polyglot with our react-intl adapter
 ### Examples
 
 ```javascript
-const swapPolyglotWithReactIntl = require('$PACKAGE_NAME');
+const swapPolyglotWithReactIntl = require('@yeutech-lab/react-admin-intl');
 
 // later in your application when you create your webpack configuration
 webpackConfig = swapPolyglotWithReactIntl(webpackConfig);
