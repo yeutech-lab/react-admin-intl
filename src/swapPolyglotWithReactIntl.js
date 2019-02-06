@@ -1,3 +1,5 @@
+const { existsSync } = require('fs');
+const { join } = require('path');
 /* eslint-disable no-param-reassign */
 /**
  * @public
@@ -29,7 +31,12 @@ export default function swapPolyglotWithReactIntl(webpackConfig) {
   } else if (!webpackConfig.resolve.alias) {
     webpackConfig.resolve.alias = {};
   }
-  webpackConfig.resolve.alias['./i18n/TranslationProvider'] = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationProvider';
-  webpackConfig.resolve.alias['./TranslationContext'] = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationContext';
+
+  const pkgTranslationProviderPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationProvider';
+  const pkgTranslationContextPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationContext';
+  const translationProviderPath = join(process.cwd(), 'node_modules', pkgTranslationProviderPath);
+  const translationContextPath = join(process.cwd(), 'node_modules', pkgTranslationContextPath);
+  webpackConfig.resolve.alias['./i18n/TranslationProvider'] = existsSync(translationProviderPath) ? translationProviderPath : pkgTranslationProviderPath; /* istanbul ignore next */
+  webpackConfig.resolve.alias['./TranslationContext'] = existsSync(translationContextPath) ? translationContextPath : pkgTranslationContextPath; /* istanbul ignore next */
   return webpackConfig;
 }
