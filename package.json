@@ -1,6 +1,6 @@
 {
   "name": "@yeutech-lab/react-admin-intl",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Quickly tweak react-admin and replace internationalization module polyglot with react-intl. It can work thanks to your resolve aliases babel or webpack configuration.",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech-lab/react-admin-intl.esm.js",

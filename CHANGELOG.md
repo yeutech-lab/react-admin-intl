@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.1...v1.1.2) (2019-02-06)
+
+
+### Bug Fixes
+
+* **swapPolyglotWithReactIntl:** using \`${process.cwd()}/node_modules\` to locate base package (improve the development experience when npm link or npm i from local installation) ([6823f05](https://github.com/yeutech-lab/react-admin-intl/commit/6823f05))
+
 ## [1.1.1](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.0...v1.1.1) (2019-01-14)
 
 
