@@ -32,8 +32,8 @@ export default function swapPolyglotWithReactIntl(webpackConfig) {
     webpackConfig.resolve.alias = {};
   }
 
-  const pkgTranslationProviderPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationProvider';
-  const pkgTranslationContextPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationContext';
+  const pkgTranslationProviderPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationProvider.js';
+  const pkgTranslationContextPath = '@yeutech-lab/react-admin-intl/lib/ra-core/i18n/TranslationContext.js';
   const translationProviderPath = join(process.cwd(), 'node_modules', pkgTranslationProviderPath);
   const translationContextPath = join(process.cwd(), 'node_modules', pkgTranslationContextPath);
   webpackConfig.resolve.alias['./i18n/TranslationProvider'] = existsSync(translationProviderPath) ? translationProviderPath : pkgTranslationProviderPath; /* istanbul ignore next */
