@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.2...v1.1.3) (2019-02-06)
+
+
+### Bug Fixes
+
+* **swapPolyglotWithReactIntl:** fix existSync ([5b6357e](https://github.com/yeutech-lab/react-admin-intl/commit/5b6357e))
+
 ## [1.1.2](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.1...v1.1.2) (2019-02-06)
 
 
