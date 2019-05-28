@@ -26,7 +26,7 @@ const TranslationProviderIntl = injectIntl(class TranslationProviderView extends
     this.state = {
       contextValues: {
         locale,
-        translate: (id, opts) => intl.formatMessage({ id, defaultMessage: messages[id] }, opts),
+        translate: (id, opts) => id ? intl.formatMessage({ id, defaultMessage: messages[id] }, opts) : '',
       },
     };
   }
@@ -38,7 +38,7 @@ const TranslationProviderIntl = injectIntl(class TranslationProviderView extends
       this.setState({
         contextValues: {
           locale,
-          translate: (id, opts) => intl.formatMessage({ id, defaultMessage: messages[id] }, opts),
+          translate: (id, opts) => id ? intl.formatMessage({ id, defaultMessage: messages[id] }, opts) : '',
         },
       });
     }
