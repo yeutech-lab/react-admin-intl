@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.3...v1.1.4) (2019-05-28)
+
+
+### Bug Fixes
+
+* **dependencies:** upgrade all dependencies ([ae8528b](https://github.com/yeutech-lab/react-admin-intl/commit/ae8528b))
+* **peer:** allowing wider range of peerDependencies ([887322b](https://github.com/yeutech-lab/react-admin-intl/commit/887322b))
+* **translate:** allowing empty string when empty id is provided to translate ([c56e87b](https://github.com/yeutech-lab/react-admin-intl/commit/c56e87b))
+
 ## [1.1.3](https://github.com/yeutech-lab/react-admin-intl/compare/v1.1.2...v1.1.3) (2019-02-06)
 
 
